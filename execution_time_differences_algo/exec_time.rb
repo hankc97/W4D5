@@ -54,3 +54,4 @@ end
 puts Benchmark.measure {
     p largest_con_sums2(list2)
 }
+
