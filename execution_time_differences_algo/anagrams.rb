@@ -56,8 +56,10 @@ end
 puts Benchmark.measure {
     p third_anagram?(str1, str2)
 }
+
 # time complexity : O(n)
 # space complexity : O(n)
+
 def fourth_anagram?(str1, str2)
     s_hash = Hash.new(0)
     str1.each_char {|char| s_hash[char] += 1}
